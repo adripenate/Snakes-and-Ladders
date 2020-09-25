@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1f52501-0741-450f-8a78-ce0685a76292" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/SnakesLadders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SnakesLadders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SnakesLaddersShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SnakesLaddersShould.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SnakesLadders.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#74#75#0" expanded="true" />
                 <element signature="e#97#98#0" expanded="true" />
@@ -43,11 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SnakesLaddersShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="56" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -70,8 +68,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/SnakesLaddersShouldTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SnakesLaddersShould.java" />
         <option value="$PROJECT_DIR$/src/main/java/SnakesLadders.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SnakesLaddersShould.java" />
       </list>
     </option>
   </component>
@@ -206,11 +204,60 @@
       <option name="project" value="LOCAL" />
       <updated>1601044151724</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Green test - follow_the_numbers_and_go_to_position_number_three">
+      <created>1601044229322</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601044229322</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Refactor - Variables renamed">
+      <created>1601044280930</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601044280930</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Red test - follow_the_numbers_and_go_to_position_number_four">
+      <created>1601044370280</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601044370280</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Green test - follow_the_numbers_and_go_to_position_number_four">
+      <created>1601044440401</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601044440401</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="SnakesLaddersShould - 2020.09.25 at 15h 28m 28s.xml">
+      <configuration name="SnakesLaddersShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SnakesLaddersShould_follow_the_numbers_and_go_to_position_number_three - 2020.09.25 at 15h 30m 11s.xml">
+      <configuration name="SnakesLaddersShould.follow_the_numbers_and_go_to_position_number_three" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SnakesLaddersShould_follow_the_numbers_and_go_to_position_number_three - 2020.09.25 at 15h 31m 06s.xml">
+      <configuration name="SnakesLaddersShould.follow_the_numbers_and_go_to_position_number_three" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SnakesLaddersShould_follow_the_numbers_and_go_to_position_number_four - 2020.09.25 at 15h 32m 09s.xml">
+      <configuration name="SnakesLaddersShould.follow_the_numbers_and_go_to_position_number_four" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SnakesLaddersShould - 2020.09.25 at 15h 32m 39s.xml">
+      <configuration name="SnakesLaddersShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SnakesLaddersShould - 2020.09.25 at 15h 33m 14s.xml">
+      <configuration name="SnakesLaddersShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SnakesLaddersShould - 2020.09.25 at 15h 33m 32s.xml">
+      <configuration name="SnakesLaddersShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SnakesLaddersShould - 2020.09.25 at 15h 33m 41s.xml">
       <configuration name="SnakesLaddersShould" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -231,7 +278,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -248,7 +295,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Red test - follow_the_numbers_and_go_to_position_number_three" />
-    <option name="LAST_COMMIT_MESSAGE" value="Red test - follow_the_numbers_and_go_to_position_number_three" />
+    <MESSAGE value="Green test - follow_the_numbers_and_go_to_position_number_three" />
+    <MESSAGE value="Refactor - Variables renamed" />
+    <MESSAGE value="Red test - follow_the_numbers_and_go_to_position_number_four" />
+    <MESSAGE value="Green test - follow_the_numbers_and_go_to_position_number_four" />
+    <option name="LAST_COMMIT_MESSAGE" value="Green test - follow_the_numbers_and_go_to_position_number_four" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/SnakesLaddersShouldTest.java">
