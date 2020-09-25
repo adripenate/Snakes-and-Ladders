@@ -6,11 +6,15 @@ public class SnakesLadders {
         if(player1Turn){
             this.positionPlayer1 += die1+die2;
             player1Turn = false;
-            return "Player 1 is on square " + positionPlayer1;
+            return keepPlaying(1, positionPlayer1);
         }else{
             this.positionPlayer2 += die1+die2;
             player1Turn = true;
-            return "Player 2 is on square " + positionPlayer2;
+            return keepPlaying(2, positionPlayer2);
         }
+    }
+
+    private String keepPlaying(int playerNumber, int positionPlayer) {
+        return "Player " + playerNumber + " is on square " + positionPlayer;
     }
 }
