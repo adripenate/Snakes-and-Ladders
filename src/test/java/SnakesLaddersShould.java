@@ -29,4 +29,19 @@ public class SnakesLaddersShould {
         assertThat(game.play(die1, die2)).isEqualTo(expectedOutput);
     }
 
+    @Test
+    public void have_two_players() {
+        int die1 = 1, die2 = 2;
+        String expectedOutput = "Player 1 is on square 3";
+        SnakesLadders game = new SnakesLadders();
+
+        assertThat(game.play(die1, die2)).isEqualTo(expectedOutput);
+
+        die1 = 1;
+        die2 = 2;
+        expectedOutput = "Player 2 is on square 3";
+
+        assertThat(game.play(die1, die2)).isEqualTo(expectedOutput);
+    }
+
 }
