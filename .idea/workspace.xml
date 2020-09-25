@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1f52501-0741-450f-8a78-ce0685a76292" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SnakesLadders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SnakesLadders.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SnakesLaddersShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SnakesLaddersShould.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,24 +27,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SnakesLadders.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-              <folding>
-                <element signature="e#74#75#0" expanded="true" />
-                <element signature="e#97#98#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SnakesLaddersShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+            <state relative-caret-position="192">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,8 +66,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/SnakesLaddersShouldTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SnakesLaddersShould.java" />
         <option value="$PROJECT_DIR$/src/main/java/SnakesLadders.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SnakesLaddersShould.java" />
       </list>
     </option>
   </component>
@@ -243,16 +237,17 @@
       <option name="project" value="LOCAL" />
       <updated>1601044516951</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Green test - remember_last_position">
+      <created>1601045276861</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1601045276861</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SnakesLaddersShould - 2020.09.25 at 15h 28m 28s.xml">
-      <configuration name="SnakesLaddersShould" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SnakesLaddersShould_follow_the_numbers_and_go_to_position_number_three - 2020.09.25 at 15h 30m 11s.xml">
-      <configuration name="SnakesLaddersShould.follow_the_numbers_and_go_to_position_number_three" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SnakesLaddersShould_follow_the_numbers_and_go_to_position_number_three - 2020.09.25 at 15h 31m 06s.xml">
       <configuration name="SnakesLaddersShould.follow_the_numbers_and_go_to_position_number_three" configurationId="JUnit" />
     </history-entry>
@@ -275,6 +270,12 @@
       <configuration name="SnakesLaddersShould" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SnakesLaddersShould - 2020.09.25 at 15h 39m 43s.xml">
+      <configuration name="SnakesLaddersShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SnakesLaddersShould - 2020.09.25 at 15h 47m 32s.xml">
+      <configuration name="SnakesLaddersShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SnakesLaddersShould - 2020.09.25 at 15h 49m 33s.xml">
       <configuration name="SnakesLaddersShould" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -317,7 +318,8 @@
     <MESSAGE value="Red test - follow_the_numbers_and_go_to_position_number_four" />
     <MESSAGE value="Green test - follow_the_numbers_and_go_to_position_number_four" />
     <MESSAGE value="Refactor - Specific test removed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor - Specific test removed" />
+    <MESSAGE value="Green test - remember_last_position" />
+    <option name="LAST_COMMIT_MESSAGE" value="Green test - remember_last_position" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/SnakesLaddersShouldTest.java">
@@ -334,23 +336,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SnakesLaddersShould.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SnakesLadders.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SnakesLadders.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SnakesLaddersShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state relative-caret-position="192">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
-            <element signature="e#74#75#0" expanded="true" />
-            <element signature="e#97#98#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -22,6 +22,8 @@ public class SnakesLaddersShould {
 
         assertThat(game.play(die1, die2)).isEqualTo(expectedOutput);
 
+        game.play(die1, die2);
+
         die1 = 1;
         die2 = 1;
         expectedOutput = "Player 1 is on square 5";
