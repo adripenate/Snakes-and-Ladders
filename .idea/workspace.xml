@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1f52501-0741-450f-8a78-ce0685a76292" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/SnakesLadders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SnakesLadders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,9 +29,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/SnakesLadders.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+            <state relative-caret-position="357">
+              <caret line="21" column="79" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="79" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#552#553#0" expanded="true" />
                 <element signature="e#622#623#0" expanded="true" />
                 <element signature="e#567#568#0" expanded="true" />
@@ -111,9 +112,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="699" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -378,16 +380,24 @@
       <option name="project" value="LOCAL" />
       <updated>1601284159089</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Green test - climb_up_ladders_at_square_seven">
+      <created>1601284817366</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1601284817366</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Refactor - Duplicated code deleted">
+      <created>1601284968460</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1601284968460</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SnakesLaddersShould - 2020.09.28 at 09h 53m 02s.xml">
-      <configuration name="SnakesLaddersShould" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SnakesLaddersShould - 2020.09.28 at 09h 55m 20s.xml">
-      <configuration name="SnakesLaddersShould" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SnakesLaddersShould - 2020.09.28 at 09h 56m 16s.xml">
       <configuration name="SnakesLaddersShould" configurationId="JUnit" />
     </history-entry>
@@ -412,12 +422,18 @@
     <history-entry file="SnakesLaddersShould - 2020.09.28 at 10h 09m 07s.xml">
       <configuration name="SnakesLaddersShould" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SnakesLaddersShould - 2020.09.28 at 10h 20m 03s.xml">
+      <configuration name="SnakesLaddersShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SnakesLaddersShould - 2020.09.28 at 10h 22m 22s.xml">
+      <configuration name="SnakesLaddersShould" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="675" y="-8" width="699" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.52425665" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -457,7 +473,6 @@
     <MESSAGE value="Green test - have_two_players" />
     <MESSAGE value="Refactor - Code extracted as method" />
     <MESSAGE value="Refactor - Code extracted as a class" />
-    <MESSAGE value="Refactor - Duplicated code deleted" />
     <MESSAGE value="Refactor - If condition extracted as method" />
     <MESSAGE value="Red test - make_player_have_another_go_when_dies_are_equal" />
     <MESSAGE value="Green test - make_player_have_another_go_when_dies_are_equal" />
@@ -467,7 +482,9 @@
     <MESSAGE value="Red test - climb_up_ladders" />
     <MESSAGE value="Green test - climb_up_ladders" />
     <MESSAGE value="Red test - climb_up_ladders_at_square_seven" />
-    <option name="LAST_COMMIT_MESSAGE" value="Red test - climb_up_ladders_at_square_seven" />
+    <MESSAGE value="Green test - climb_up_ladders_at_square_seven" />
+    <MESSAGE value="Refactor - Duplicated code deleted" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor - Duplicated code deleted" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/SnakesLaddersShouldTest.java" />
@@ -507,9 +524,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SnakesLadders.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        <state relative-caret-position="357">
+          <caret line="21" column="79" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="79" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#552#553#0" expanded="true" />
             <element signature="e#622#623#0" expanded="true" />
             <element signature="e#567#568#0" expanded="true" />
