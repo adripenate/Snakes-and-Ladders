@@ -11,6 +11,7 @@ public class SnakesLadders {
     public String play(int die1, int die2) {
         playerWithTurn.advance(die1, die2);
         if(playerWithTurn.getPosition() == 2) playerWithTurn.setPosition(38);
+        if(playerWithTurn.getPosition() == 7) playerWithTurn.setPosition(14);
         String playerState = playerWithTurn.keepPlaying();
         playerWithTurn = whoseTurnIsIt(die1, die2) ? player1 : player2;
         return playerState;
