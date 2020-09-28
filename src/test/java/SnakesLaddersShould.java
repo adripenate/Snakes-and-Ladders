@@ -91,7 +91,7 @@ public class SnakesLaddersShould {
         String expectedOutput = "Player 1 is on square 25";
         int die1 = 1, die2 = 1;
         game.play(die1, die2);
-        game.play(die1, die2);
+        die1 = 6; die2 = 2;
 
         assertThat(game.play(die1, die2)).isEqualTo(expectedOutput);
 
