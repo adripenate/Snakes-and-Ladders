@@ -42,12 +42,18 @@ public class SnakesLadders {
     public String play(int die1, int die2) {
         playerWithTurn.advance(die1, die2);
         if(playerIsInLadderSquare()) playerWithTurn.advanceTo(getLadderEndSquare());
-        if (snakes.containsKey(playerWithTurn.getPosition())){
-            playerWithTurn.advanceTo(snakes.get(playerWithTurn.getPosition()));
-        }
+        if (playerIsInSnakeSquare()) playerWithTurn.advanceTo(getSnakeEndSquare());
         String playerState = playerWithTurn.keepPlaying();
         playerWithTurn = whoseTurnIsIt(die1, die2) ? player1 : player2;
         return playerState;
+    }
+
+    private Integer getSnakeEndSquare() {
+        return snakes.get(getActualSquare());
+    }
+
+    private boolean playerIsInSnakeSquare() {
+        return snakes.containsKey(getActualSquare());
     }
 
     private Integer getLadderEndSquare() {
