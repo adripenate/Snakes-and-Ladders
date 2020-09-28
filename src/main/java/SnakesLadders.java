@@ -19,6 +19,12 @@ public class SnakesLadders {
         put(87, 94);
     }};
 
+    Map<Integer, Integer> snakes = new HashMap<Integer, Integer>()
+    {{
+        put(16, 6);
+        put(46, 25);
+    }};
+
     public SnakesLadders() {
         this.player1 = new Player(1);
         this.player2 = new Player(2);
@@ -28,11 +34,8 @@ public class SnakesLadders {
     public String play(int die1, int die2) {
         playerWithTurn.advance(die1, die2);
         if(playerIsInLadderSquare()) playerWithTurn.advanceTo(getLadderEndSquare());
-        if (playerWithTurn.getPosition() == 16){
-            playerWithTurn.advanceTo(6);
-        }
-        if (playerWithTurn.getPosition() == 46){
-            playerWithTurn.advanceTo(25);
+        if (snakes.containsKey(playerWithTurn.getPosition())){
+            playerWithTurn.advanceTo(snakes.get(playerWithTurn.getPosition()));
         }
         String playerState = playerWithTurn.keepPlaying();
         playerWithTurn = whoseTurnIsIt(die1, die2) ? player1 : player2;
