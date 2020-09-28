@@ -84,4 +84,17 @@ public class SnakesLaddersShould {
 
     }
 
+    @Test
+    public void slide_down_snake_at_square_46() {
+        SnakesLadders game = new SnakesLadders();
+
+        String expectedOutput = "Player 1 is on square 25";
+        int die1 = 1, die2 = 1;
+        game.play(die1, die2);
+        game.play(die1, die2);
+
+        assertThat(game.play(die1, die2)).isEqualTo(expectedOutput);
+
+    }
+
 }
