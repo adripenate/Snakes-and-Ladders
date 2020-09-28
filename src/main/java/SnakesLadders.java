@@ -4,20 +4,6 @@ import java.util.Map;
 public class SnakesLadders {
     private Player player1, player2;
     private Player playerWithTurn;
-    Map<Integer, Integer> ladders = new HashMap<Integer, Integer>()
-    {{
-        put(2, 38);
-        put(7, 14);
-        put(8, 31);
-        put(15, 26);
-        put(21, 42);
-        put(28, 84);
-        put(36, 44);
-        put(51, 67);
-        put(71, 91);
-        put(78, 98);
-        put(87, 94);
-    }};
 
     Map<Integer, Integer> snakes = new HashMap<Integer, Integer>()
     {{
@@ -57,11 +43,11 @@ public class SnakesLadders {
     }
 
     private Integer getLadderEndSquare() {
-        return ladders.get(getActualSquare());
+        return Ladders.getEndSquare(getActualSquare());
     }
 
     private boolean playerIsInLadderSquare() {
-        return ladders.containsKey(getActualSquare());
+        return Ladders.isLadderSquare(getActualSquare());
     }
 
     private int getActualSquare() {
