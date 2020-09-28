@@ -71,21 +71,7 @@ public class SnakesLaddersShould {
     }
 
     @Test
-    public void slide_down_snake_at_square_16() {
-        int die1 = 4, die2 = 3;
-        String expectedOutput = "Player 1 is on square 6";
-        SnakesLadders game = new SnakesLadders();
-        game.play(die1, die2);
-        die1 = 2; die2 = 1;
-        game.play(die1, die2);
-        die1 = 1; die2 = 1;
-
-        assertThat(game.play(die1, die2)).isEqualTo(expectedOutput);
-
-    }
-
-    @Test
-    public void slide_down_snake_at_square_46() {
+    public void slide_down_snake() {
         SnakesLadders game = new SnakesLadders();
 
         String expectedOutput = "Player 1 is on square 25";
