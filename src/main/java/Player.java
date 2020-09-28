@@ -19,7 +19,7 @@ public class Player {
         return position;
     }
 
-    public void setPosition(int position) {
+    public void advanceTo(int position) {
         this.position = position;
     }
 }
