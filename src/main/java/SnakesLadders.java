@@ -3,8 +3,8 @@ public class SnakesLadders {
     private Player playerWithTurn;
 
     public SnakesLadders() {
-        this.player1 = new Player(1);
-        this.player2 = new Player(2);
+        this.player1 = new Player(1, 100);
+        this.player2 = new Player(2, 100);
         this.playerWithTurn = player1;
     }
 

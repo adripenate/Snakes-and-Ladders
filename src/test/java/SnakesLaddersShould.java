@@ -80,7 +80,25 @@ public class SnakesLaddersShould {
         die1 = 6; die2 = 2;
 
         assertThat(game.play(die1, die2)).isEqualTo(expectedOutput);
-
     }
 
+    @Test
+    public void have_win_message_when_player_is_on_square_100() {
+        SnakesLadders game = new SnakesLadders();
+
+        String expectedOutput = "Player 1 Wins!";
+        int die1 = 6, die2 = 1;
+        game.play(die1, die2); //PLAYER 1
+        game.play(die1, die2); //PLAYER 2
+        die1 = 6; die2 = 6;
+        game.play(die1, die2); //PLAYER 1
+        die1 = 1; die2 = 1;
+        game.play(die1, die2); //PLAYER 1
+        die1 = 2; die2 = 1;
+        game.play(die1, die2); //PLAYER 1
+        game.play(die1, die2); //PLAYER 2
+        die1 = 3; die2 = 3;
+
+        assertThat(game.play(die1, die2)).isEqualTo(expectedOutput);
+    }
 }

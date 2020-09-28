@@ -1,9 +1,11 @@
 public class Player {
     private int position;
     private int numberOfPlayer;
+    private int goal;
 
-    public Player(int numberOfPlayer) {
+    public Player(int numberOfPlayer, int goal) {
         this.position = 0;
+        this.goal = goal;
         this.numberOfPlayer = numberOfPlayer;
     }
 
@@ -12,6 +14,7 @@ public class Player {
     }
 
     public String keepPlaying() {
+        if(position == goal) return "Player " + numberOfPlayer + " Wins!";
         return "Player " + numberOfPlayer + " is on square " + position;
     }
 
