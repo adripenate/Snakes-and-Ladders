@@ -2,8 +2,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class SnakesLadders {
-    Player player1, player2;
-    Player playerWithTurn;
+    private Player player1, player2;
+    private Player playerWithTurn;
     Map<Integer, Integer> ladders = new HashMap<Integer, Integer>()
     {{
         put(2, 38);
@@ -27,11 +27,19 @@ public class SnakesLadders {
 
     public String play(int die1, int die2) {
         playerWithTurn.advance(die1, die2);
-        if(ladders.containsKey(playerWithTurn.getPosition()))
-            playerWithTurn.setPosition(ladders.get(playerWithTurn.getPosition()));
+        if(playerIsInLadderSquare())
+            playerWithTurn.setPosition(ladders.get(getActualSquare()));
         String playerState = playerWithTurn.keepPlaying();
         playerWithTurn = whoseTurnIsIt(die1, die2) ? player1 : player2;
         return playerState;
+    }
+
+    private boolean playerIsInLadderSquare() {
+        return ladders.containsKey(getActualSquare());
+    }
+
+    private int getActualSquare() {
+        return playerWithTurn.getPosition();
     }
 
     private boolean whoseTurnIsIt(int die1, int die2) {
