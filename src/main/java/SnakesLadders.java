@@ -28,6 +28,9 @@ public class SnakesLadders {
     public String play(int die1, int die2) {
         playerWithTurn.advance(die1, die2);
         if(playerIsInLadderSquare()) playerWithTurn.advanceTo(getLadderEndSquare());
+        if (playerWithTurn.getPosition() == 16){
+            playerWithTurn.advanceTo(6);
+        }
         String playerState = playerWithTurn.keepPlaying();
         playerWithTurn = whoseTurnIsIt(die1, die2) ? player1 : player2;
         return playerState;
