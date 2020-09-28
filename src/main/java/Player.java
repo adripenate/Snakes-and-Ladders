@@ -1,6 +1,6 @@
 public class Player {
-    int position;
-    int numberOfPlayer;
+    private int position;
+    private int numberOfPlayer;
 
     public Player(int numberOfPlayer) {
         this.position = 0;
@@ -13,5 +13,13 @@ public class Player {
 
     public String keepPlaying() {
         return "Player " + numberOfPlayer + " is on square " + position;
+    }
+
+    public int getPosition() {
+        return position;
+    }
+
+    public void setPosition(int position) {
+        this.position = position;
     }
 }
