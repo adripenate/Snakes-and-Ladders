@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1f52501-0741-450f-8a78-ce0685a76292" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SnakesLadders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SnakesLadders.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/SnakesLadders.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="37" column="76" selection-start-line="37" selection-start-column="76" selection-end-line="37" selection-end-column="76" />
+            <state relative-caret-position="238">
+              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1008#1009#0" expanded="true" />
@@ -109,7 +110,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="675" />
     <option name="y" value="-8" />
     <option name="width" value="699" />
     <option name="height" value="744" />
@@ -454,13 +455,17 @@
       <option name="project" value="LOCAL" />
       <updated>1601287067466</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Refactor - Duplicated code deleted">
+      <created>1601287160379</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1601287160379</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SnakesLaddersShould - 2020.09.28 at 10h 35m 08s.xml">
-      <configuration name="SnakesLaddersShould" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SnakesLaddersShould - 2020.09.28 at 10h 37m 14s.xml">
       <configuration name="SnakesLaddersShould" configurationId="JUnit" />
     </history-entry>
@@ -486,6 +491,9 @@
       <configuration name="SnakesLaddersShould" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SnakesLaddersShould - 2020.09.28 at 10h 57m 27s.xml">
+      <configuration name="SnakesLaddersShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SnakesLaddersShould - 2020.09.28 at 10h 59m 01s.xml">
       <configuration name="SnakesLaddersShould" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -537,7 +545,6 @@
     <MESSAGE value="Green test - climb_up_ladders" />
     <MESSAGE value="Red test - climb_up_ladders_at_square_seven" />
     <MESSAGE value="Green test - climb_up_ladders_at_square_seven" />
-    <MESSAGE value="Refactor - Duplicated code deleted" />
     <MESSAGE value="All ladder squares added to hashmap" />
     <MESSAGE value="Refactor - Code extracted as method" />
     <MESSAGE value="Refactor - Code extracted as method and method renamed" />
@@ -547,7 +554,8 @@
     <MESSAGE value="Red test - slide_down_snake_at_square_46" />
     <MESSAGE value="Red test fixed" />
     <MESSAGE value="Green test - slide_down_snake_at_square_46" />
-    <option name="LAST_COMMIT_MESSAGE" value="Green test - slide_down_snake_at_square_46" />
+    <MESSAGE value="Refactor - Duplicated code deleted" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor - Duplicated code deleted" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/SnakesLaddersShouldTest.java" />
@@ -587,8 +595,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SnakesLadders.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="37" column="76" selection-start-line="37" selection-start-column="76" selection-end-line="37" selection-end-column="76" />
+        <state relative-caret-position="238">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1008#1009#0" expanded="true" />
