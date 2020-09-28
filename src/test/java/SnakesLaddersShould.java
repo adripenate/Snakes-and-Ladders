@@ -61,4 +61,13 @@ public class SnakesLaddersShould {
         assertThat(game.play(die1, die2)).isEqualTo(expectedOutput);
     }
 
+    @Test
+    public void climb_up_ladders() {
+        int die1 = 1, die2 = 1;
+        String expectedOutput = "Player 1 is on square 38";
+        SnakesLadders game = new SnakesLadders();
+
+        assertThat(game.play(die1, die2)).isEqualTo(expectedOutput);
+    }
+
 }
