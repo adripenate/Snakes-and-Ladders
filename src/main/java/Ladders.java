@@ -17,7 +17,6 @@ public class Ladders {
         put(87, 94);
     }};
 
-
     public static Integer getEndSquare(int actualSquare) {
         return ladders.get(actualSquare);
     }
