@@ -11,7 +11,7 @@ public class SnakesLadders {
     public String play(int die1, int die2) {
         playerWithTurn.advance(die1, die2);
         String playerState = playerWithTurn.keepPlaying();
-        playerWithTurn = isFirstPlayerTurn() ? player2 : player1;
+        playerWithTurn = (die1!=die2) == isFirstPlayerTurn() ? player2 : player1;
         return playerState;
     }
 
