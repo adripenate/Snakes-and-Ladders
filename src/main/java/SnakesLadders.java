@@ -1,20 +1,21 @@
 public class SnakesLadders {
-    int positionPlayer1 = 0, positionPlayer2 = 0;
+    Player player1, player2;
     boolean player1Turn = true;
+
+    public SnakesLadders() {
+        this.player1 = new Player(1);
+        this.player2 = new Player(2);
+    }
 
     public String play(int die1, int die2) {
         if(player1Turn){
-            this.positionPlayer1 += die1+die2;
+            player1.advance(die1, die2);
             player1Turn = false;
-            return keepPlaying(1, positionPlayer1);
+            return player1.keepPlaying();
         }else{
-            this.positionPlayer2 += die1+die2;
+            player2.advance(die1, die2);
             player1Turn = true;
-            return keepPlaying(2, positionPlayer2);
+            return player2.keepPlaying();
         }
-    }
-
-    private String keepPlaying(int playerNumber, int positionPlayer) {
-        return "Player " + playerNumber + " is on square " + positionPlayer;
     }
 }
