@@ -14,8 +14,12 @@ public class Player {
     }
 
     public String keepPlaying() {
-        if(position == goal) return "Player " + numberOfPlayer + " Wins!";
+        if(playerHasReachedGoal()) return "Player " + numberOfPlayer + " Wins!";
         return "Player " + numberOfPlayer + " is on square " + position;
+    }
+
+    private boolean playerHasReachedGoal() {
+        return position == goal;
     }
 
     public int getPosition() {

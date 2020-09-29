@@ -16,9 +16,13 @@ public class SnakesLadders {
         if(playerIsInLadderSquare()) playerWithTurn.advanceTo(getLadderEndSquare());
         if (playerIsInSnakeSquare()) playerWithTurn.advanceTo(getSnakeEndSquare());
         String playerState = playerWithTurn.keepPlaying();
-        if(getActualSquare() == 100) gameOver = true;
+        if(playerHasReachedGoal()) gameOver = true;
         playerWithTurn = whoseTurnIsIt(die1, die2) ? player1 : player2;
         return playerState;
+    }
+
+    private boolean playerHasReachedGoal() {
+        return getActualSquare() == 100;
     }
 
     private Integer getSnakeEndSquare() {
