@@ -103,7 +103,7 @@ public class SnakesLaddersShould {
     }
 
     @Test
-    public void show_game_over_message_when_another_player_has_won() {
+    public void show_game_over_message_when_a_player_has_won() {
         SnakesLadders game = new SnakesLadders();
 
         String expectedOutput = "Game over!";
