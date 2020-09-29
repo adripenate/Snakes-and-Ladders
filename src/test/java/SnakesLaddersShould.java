@@ -83,7 +83,7 @@ public class SnakesLaddersShould {
     }
 
     @Test
-    public void have_win_message_when_player_is_on_square_100() {
+    public void show_win_message_when_player_is_on_square_100() {
         SnakesLadders game = new SnakesLadders();
 
         String expectedOutput = "Player 1 Wins!";
