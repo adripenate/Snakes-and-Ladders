@@ -14,7 +14,7 @@ public class Player {
         this.position += die1+die2;
     }
 
-    public String keepPlaying() {
+    public String getPlayerState() {
         if(playerHasReachedGoal()) return "Player " + numberOfPlayer + " Wins!";
         return "Player " + numberOfPlayer + " is on square " + position;
     }

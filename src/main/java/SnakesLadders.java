@@ -17,7 +17,7 @@ public class SnakesLadders {
         playerWithTurn.advance(die1, die2);
         if(playerIsInLadderSquare()) playerWithTurn.advanceTo(getLadderEndSquare());
         if (playerIsInSnakeSquare()) playerWithTurn.advanceTo(getSnakeEndSquare());
-        String playerState = playerWithTurn.keepPlaying();
+        String playerState = playerWithTurn.getPlayerState();
         if(playerHasReachedGoal()) gameOver = true;
         playerWithTurn = whoseTurnIsIt(die1, die2) ? player1 : player2;
         return playerState;
