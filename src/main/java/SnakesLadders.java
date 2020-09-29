@@ -15,12 +15,20 @@ public class SnakesLadders {
     public String play(int die1, int die2) {
         if (gameOver) return GAME_OVER;
         playerWithTurn.advance(die1, die2);
-        if(playerIsInLadderSquare()) playerWithTurn.advanceTo(getLadderEndSquare());
-        if (playerIsInSnakeSquare()) playerWithTurn.advanceTo(getSnakeEndSquare());
+        playerAdvanceIfTheyAreInSpecialSquare();
         String playerState = playerWithTurn.getPlayerState();
         if(playerHasReachedGoal()) gameOver = true;
-        playerWithTurn = whoseTurnIsIt(die1, die2) ? player1 : player2;
+        playerWithTurn = changePlayerIfNotEquals(die1, die2);
         return playerState;
+    }
+
+    private Player changePlayerIfNotEquals(int die1, int die2) {
+        return whoseTurnIsIt(die1, die2) ? player1 : player2;
+    }
+
+    private void playerAdvanceIfTheyAreInSpecialSquare() {
+        if(playerIsInLadderSquare()) playerWithTurn.advanceTo(getLadderEndSquare());
+        if (playerIsInSnakeSquare()) playerWithTurn.advanceTo(getSnakeEndSquare());
     }
 
     private boolean playerHasReachedGoal() {
