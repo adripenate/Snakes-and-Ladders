@@ -72,7 +72,7 @@ public class SnakesLadders {
     }
 
     private boolean whoseTurnIsIt(int die1, int die2) {
-        return areDiesEqual(die1, die2) == isFirstPlayerTurn();
+        return gameOver ? isFirstPlayerTurn() : areDiesEqual(die1, die2) == isFirstPlayerTurn();
     }
 
     private boolean areDiesEqual(int die1, int die2) {
