@@ -1,17 +1,19 @@
 public class SnakesLadders {
+    private final int GOAL = 100;
+    private final String GAME_OVER = "Game over!";
     private Player player1, player2;
     private Player playerWithTurn;
     private boolean gameOver;
 
     public SnakesLadders() {
-        this.player1 = new Player(1, 100);
-        this.player2 = new Player(2, 100);
+        this.player1 = new Player(1, GOAL);
+        this.player2 = new Player(2, GOAL);
         this.playerWithTurn = player1;
         this.gameOver = false;
     }
 
     public String play(int die1, int die2) {
-        if (gameOver) return "Game over!";
+        if (gameOver) return GAME_OVER;
         playerWithTurn.advance(die1, die2);
         if(playerIsInLadderSquare()) playerWithTurn.advanceTo(getLadderEndSquare());
         if (playerIsInSnakeSquare()) playerWithTurn.advanceTo(getSnakeEndSquare());
@@ -22,7 +24,7 @@ public class SnakesLadders {
     }
 
     private boolean playerHasReachedGoal() {
-        return getActualSquare() == 100;
+        return getActualSquare() == GOAL;
     }
 
     private Integer getSnakeEndSquare() {

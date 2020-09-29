@@ -1,10 +1,11 @@
 public class Player {
+    public static final int START_POSITION = 0;
     private int position;
     private int numberOfPlayer;
     private int goal;
 
     public Player(int numberOfPlayer, int goal) {
-        this.position = 0;
+        this.position = START_POSITION;
         this.goal = goal;
         this.numberOfPlayer = numberOfPlayer;
     }
