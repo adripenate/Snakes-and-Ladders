@@ -12,7 +12,15 @@ public class Player {
 
     public void advance(int die1, int die2) {
         this.position += die1+die2;
-        if(this.position > goal) this.position = goal - (this.position - goal);
+        if(playerIsBeyondGoal()) this.position = rollBack();
+    }
+
+    private int rollBack() {
+        return goal - (this.position - goal);
+    }
+
+    private boolean playerIsBeyondGoal() {
+        return this.position > goal;
     }
 
     public String getPlayerState() {
