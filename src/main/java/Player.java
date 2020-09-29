@@ -12,6 +12,7 @@ public class Player {
 
     public void advance(int die1, int die2) {
         this.position += die1+die2;
+        if(this.position > goal) this.position = goal - (this.position - goal);
     }
 
     public String getPlayerState() {
