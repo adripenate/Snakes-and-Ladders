@@ -101,4 +101,25 @@ public class SnakesLaddersShould {
 
         assertThat(game.play(die1, die2)).isEqualTo(expectedOutput);
     }
+
+    @Test
+    public void show_game_over_message_when_another_player_has_won() {
+        SnakesLadders game = new SnakesLadders();
+
+        String expectedOutput = "Game over!";
+        int die1 = 6, die2 = 1;
+        game.play(die1, die2); //PLAYER 1
+        game.play(die1, die2); //PLAYER 2
+        die1 = 6; die2 = 6;
+        game.play(die1, die2); //PLAYER 1
+        die1 = 1; die2 = 1;
+        game.play(die1, die2); //PLAYER 1
+        die1 = 2; die2 = 1;
+        game.play(die1, die2); //PLAYER 1
+        game.play(die1, die2); //PLAYER 2
+        die1 = 4; die2 = 2;
+        game.play(die1, die2);
+
+        assertThat(game.play(die1, die2)).isEqualTo(expectedOutput);
+    }
 }
