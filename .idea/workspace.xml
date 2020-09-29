@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1f52501-0741-450f-8a78-ce0685a76292" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SnakesLaddersShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SnakesLaddersShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SnakesLadders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SnakesLadders.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/SnakesLadders.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+            <state relative-caret-position="153">
+              <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
               <folding>
                 <element signature="e#835#836#0" expanded="true" />
                 <element signature="e#897#898#0" expanded="true" />
@@ -76,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SnakesLaddersShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="85" column="20" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
+            <state relative-caret-position="158">
+              <caret line="112" column="27" lean-forward="true" selection-start-line="112" selection-start-column="27" selection-end-line="112" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,9 +112,9 @@
         <option value="$PROJECT_DIR$/src/test/java/SnakesLaddersShouldTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Ladders.java" />
         <option value="$PROJECT_DIR$/src/main/java/Snakes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SnakesLadders.java" />
         <option value="$PROJECT_DIR$/src/main/java/Player.java" />
         <option value="$PROJECT_DIR$/src/test/java/SnakesLaddersShould.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SnakesLadders.java" />
       </list>
     </option>
   </component>
@@ -137,45 +136,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="SnakesAndLadders" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SnakesAndLadders" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SnakesAndLadders" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SnakesAndLadders" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SnakesAndLadders" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SnakesAndLadders" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SnakesAndLadders" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SnakesAndLadders" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SnakesAndLadders" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SnakesAndLadders" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -528,19 +489,24 @@
       <option name="project" value="LOCAL" />
       <updated>1601292425113</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Refactor - Test name changed">
+      <created>1601373687705</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1601373687705</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Red test - show_game_over_message_when_another_player_has_won">
+      <created>1601373887167</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1601373887167</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SnakesLaddersShould - 2020.09.28 at 11h 06m 04s.xml">
-      <configuration name="SnakesLaddersShould" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SnakesLaddersShould - 2020.09.28 at 11h 06m 46s.xml">
-      <configuration name="SnakesLaddersShould" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SnakesLaddersShould - 2020.09.28 at 11h 11m 46s.xml">
-      <configuration name="SnakesLaddersShould" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SnakesLaddersShould - 2020.09.28 at 11h 14m 13s.xml">
       <configuration name="SnakesLaddersShould" configurationId="JUnit" />
     </history-entry>
@@ -562,6 +528,15 @@
     <history-entry file="SnakesLaddersShould - 2020.09.28 at 12h 26m 42s.xml">
       <configuration name="SnakesLaddersShould" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SnakesLaddersShould - 2020.09.29 at 11h 01m 01s.xml">
+      <configuration name="SnakesLaddersShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SnakesLaddersShould - 2020.09.29 at 11h 03m 07s.xml">
+      <configuration name="SnakesLaddersShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SnakesLaddersShould - 2020.09.29 at 11h 03m 58s.xml">
+      <configuration name="SnakesLaddersShould" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -576,7 +551,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -596,8 +571,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refactor - If condition extracted as method" />
-    <MESSAGE value="Red test - make_player_have_another_go_when_dies_are_equal" />
     <MESSAGE value="Green test - make_player_have_another_go_when_dies_are_equal" />
     <MESSAGE value="Refactor - If conditions extracted as methods" />
     <MESSAGE value="Refactor - If condition modified" />
@@ -621,7 +594,9 @@
     <MESSAGE value="Refactor - Snakes map moved to its own class" />
     <MESSAGE value="Refactor - Specific test deleted" />
     <MESSAGE value="Green test - have_win_message_when_player_is_on_square_100" />
-    <option name="LAST_COMMIT_MESSAGE" value="Green test - have_win_message_when_player_is_on_square_100" />
+    <MESSAGE value="Refactor - Test name changed" />
+    <MESSAGE value="Red test - show_game_over_message_when_another_player_has_won" />
+    <option name="LAST_COMMIT_MESSAGE" value="Red test - show_game_over_message_when_another_player_has_won" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/SnakesLaddersShouldTest.java" />
@@ -632,33 +607,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SnakesLadders.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-          <folding>
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#941#942#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1051#1052#0" expanded="true" />
-            <element signature="e#1115#1116#0" expanded="true" />
-            <element signature="e#1152#1153#0" expanded="true" />
-            <element signature="e#1203#1204#0" expanded="true" />
-            <element signature="e#1260#1261#0" expanded="true" />
-            <element signature="e#1330#1331#0" expanded="true" />
-            <element signature="e#1386#1387#0" expanded="true" />
-            <element signature="e#1419#1420#0" expanded="true" />
-            <element signature="e#1462#1463#0" expanded="true" />
-            <element signature="e#1510#1511#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Snakes.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SnakesLaddersShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        <state relative-caret-position="158">
+          <caret line="112" column="27" lean-forward="true" selection-start-line="112" selection-start-column="27" selection-end-line="112" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -675,19 +634,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Snakes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="340">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SnakesLaddersShould.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SnakesLadders.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="85" column="20" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
+        <state relative-caret-position="153">
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+            <element signature="e#1203#1204#0" expanded="true" />
+            <element signature="e#1260#1261#0" expanded="true" />
+            <element signature="e#1330#1331#0" expanded="true" />
+            <element signature="e#1386#1387#0" expanded="true" />
+            <element signature="e#1419#1420#0" expanded="true" />
+            <element signature="e#1462#1463#0" expanded="true" />
+            <element signature="e#1510#1511#0" expanded="true" />
           </folding>
         </state>
       </provider>
