@@ -122,4 +122,24 @@ public class SnakesLaddersShould {
 
         assertThat(game.play(die1, die2)).isEqualTo(expectedOutput);
     }
+
+    @Test
+    public void rolls_back_when_rolling_over_100() {
+        SnakesLadders game = new SnakesLadders();
+
+        String expectedOutput = "Player 1 is on square 98";
+        int die1 = 6, die2 = 1;
+        game.play(die1, die2); //PLAYER 1
+        game.play(die1, die2); //PLAYER 2
+        die1 = 6; die2 = 6;
+        game.play(die1, die2); //PLAYER 1
+        die1 = 1; die2 = 1;
+        game.play(die1, die2); //PLAYER 1
+        die1 = 2; die2 = 1;
+        game.play(die1, die2); //PLAYER 1
+        game.play(die1, die2); //PLAYER 2
+        die1 = 4; die2 = 4;
+
+        assertThat(game.play(die1, die2)).isEqualTo(expectedOutput);
+    }
 }
