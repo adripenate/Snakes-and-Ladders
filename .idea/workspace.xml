@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1f52501-0741-450f-8a78-ce0685a76292" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SnakesLadders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SnakesLadders.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,11 +21,21 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/SnakesLadders.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+            <state relative-caret-position="17">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
               <folding>
+                <element signature="e#830#831#0" expanded="true" />
+                <element signature="e#880#881#0" expanded="true" />
+                <element signature="e#840#841#0" expanded="true" />
+                <element signature="e#871#872#0" expanded="true" />
+                <element signature="e#821#822#0" expanded="true" />
+                <element signature="e#875#876#0" expanded="true" />
+                <element signature="e#863#864#0" expanded="true" />
+                <element signature="e#931#932#0" expanded="true" />
                 <element signature="e#886#887#0" expanded="true" />
                 <element signature="e#933#934#0" expanded="true" />
+                <element signature="e#727#728#0" expanded="true" />
+                <element signature="e#788#789#0" expanded="true" />
                 <element signature="e#835#836#0" expanded="true" />
                 <element signature="e#897#898#0" expanded="true" />
                 <element signature="e#941#942#0" expanded="true" />
@@ -520,19 +531,17 @@
       <option name="project" value="LOCAL" />
       <updated>1601374483259</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Refactor - Code extracted as methods">
+      <created>1601374788760</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1601374788760</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SnakesLaddersShould - 2020.09.28 at 12h 26m 42s.xml">
-      <configuration name="SnakesLaddersShould" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SnakesLaddersShould - 2020.09.29 at 11h 01m 01s.xml">
-      <configuration name="SnakesLaddersShould" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SnakesLaddersShould - 2020.09.29 at 11h 03m 07s.xml">
-      <configuration name="SnakesLaddersShould" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SnakesLaddersShould - 2020.09.29 at 11h 03m 58s.xml">
       <configuration name="SnakesLaddersShould" configurationId="JUnit" />
     </history-entry>
@@ -552,6 +561,15 @@
       <configuration name="SnakesLaddersShould" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SnakesLaddersShould - 2020.09.29 at 11h 14m 29s.xml">
+      <configuration name="SnakesLaddersShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SnakesLaddersShould - 2020.09.29 at 11h 17m 01s.xml">
+      <configuration name="SnakesLaddersShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SnakesLaddersShould - 2020.09.29 at 11h 19m 30s.xml">
+      <configuration name="SnakesLaddersShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SnakesLaddersShould - 2020.09.29 at 11h 23m 50s.xml">
       <configuration name="SnakesLaddersShould" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -602,7 +620,6 @@
     <MESSAGE value="Green test - slide_down_snake_at_square_46" />
     <MESSAGE value="Refactor - Duplicated code deleted" />
     <MESSAGE value="All snakes squares added to hashmap" />
-    <MESSAGE value="Refactor - Code extracted as methods" />
     <MESSAGE value="Refactor - Ladders map moved to its own class" />
     <MESSAGE value="Refactor - Snakes map moved to its own class" />
     <MESSAGE value="Refactor - Specific test deleted" />
@@ -613,7 +630,8 @@
     <MESSAGE value="Refactor - If conditions extracted as methods" />
     <MESSAGE value="Refactor - Magic strings/numbers" />
     <MESSAGE value="Refactor - Method renamed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor - Method renamed" />
+    <MESSAGE value="Refactor - Code extracted as methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor - Code extracted as methods" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/SnakesLaddersShouldTest.java" />
@@ -667,11 +685,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SnakesLadders.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        <state relative-caret-position="17">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding>
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
             <element signature="e#886#887#0" expanded="true" />
             <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
             <element signature="e#835#836#0" expanded="true" />
             <element signature="e#897#898#0" expanded="true" />
             <element signature="e#941#942#0" expanded="true" />

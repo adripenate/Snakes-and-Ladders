@@ -14,12 +14,28 @@ public class SnakesLadders {
 
     public String play(int die1, int die2) {
         if (gameOver) return GAME_OVER;
-        playerWithTurn.advance(die1, die2);
-        playerAdvanceIfTheyAreInSpecialSquare();
-        String playerState = playerWithTurn.getPlayerState();
-        if(playerHasReachedGoal()) gameOver = true;
+        playerAdvanceSquares(die1, die2);
+        String playerState = getPlayerState();
+        if(playerHasReachedGoal()) gameHasEnded();
         playerWithTurn = changePlayerIfNotEquals(die1, die2);
         return playerState;
+    }
+
+    private void playerAdvanceSquares(int die1, int die2) {
+        playerAdvanceTo(die1, die2);
+        playerAdvanceIfTheyAreInSpecialSquare();
+    }
+
+    private void playerAdvanceTo(int die1, int die2) {
+        playerWithTurn.advance(die1, die2);
+    }
+
+    private void gameHasEnded() {
+        gameOver = true;
+    }
+
+    private String getPlayerState() {
+        return playerWithTurn.getPlayerState();
     }
 
     private Player changePlayerIfNotEquals(int die1, int die2) {
